@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>Git&Github</title>
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/simple.css" id="theme">
+
+	<!--[if lt IE 9]>
+	<script src="lib/js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<style type="text/css">#yddContainer{display:block;font-family:Microsoft YaHei;position:relative;width:100%;height:100%;top:-4px;left:-4px;font-size:12px;border:1px solid}#yddTop{display:block;height:22px}#yddTopBorderlr{display:block;position:static;height:17px;padding:2px 28px;line-height:17px;font-size:12px;color:#5079bb;font-weight:bold;border-style:none solid;border-width:1px}#yddTopBorderlr .ydd-sp{position:absolute;top:2px;height:0;overflow:hidden}.ydd-icon{left:5px;width:17px;padding:0px 0px 0px 0px;padding-top:17px;background-position:-16px -44px}.ydd-close{right:5px;width:16px;padding-top:16px;background-position:left -44px}#yddKeyTitle{float:left;text-decoration:none}#yddMiddle{display:block;margin-bottom:10px}.ydd-tabs{display:block;margin:5px 0;padding:0 5px;height:18px;border-bottom:1px solid}.ydd-tab{display:block;float:left;height:18px;margin:0 5px -1px 0;padding:0 4px;line-height:18px;border:1px solid;border-bottom:none}.ydd-trans-container{display:block;line-height:160%}.ydd-trans-container a{text-decoration:none;}#yddBottom{position:absolute;bottom:0;left:0;width:100%;height:22px;line-height:22px;overflow:hidden;background-position:left -22px}.ydd-padding010{padding:0 10px}#yddWrapper{color:#252525;z-index:10001;background:url(chrome-extension://eopjamdnofihpioajgfdikhhbobonhbb/ab20.png);}#yddContainer{background:#fff;border-color:#4b7598}#yddTopBorderlr{border-color:#f0f8fc}#yddWrapper .ydd-sp{background-image:url(chrome-extension://eopjamdnofihpioajgfdikhhbobonhbb/ydd-sprite.png)}#yddWrapper a,#yddWrapper a:hover,#yddWrapper a:visited{color:#50799b}#yddWrapper .ydd-tabs{color:#959595}.ydd-tabs,.ydd-tab{background:#fff;border-color:#d5e7f3}#yddBottom{color:#363636}#yddWrapper{min-width:250px;max-width:400px;}
+	.reveal p,.reveal ol,.reveal ul,.reveal li,.reveal blockquote{line-height:1.25em}
+	.reveal p,.reveal ol,.reveal ul,.reveal li,.reveal blockquote,.reveal pre{margin-top:.75em;margin-bottom:.75em}
+	.reveal h1,.reveal h2,.reveal h3,.reveal h4,.reveal h5,.reveal h6{margin-top:.25em;margin-bottom:.75em}
+	.reveal ul{list-style-type:circle}
+	.reveal pre code{padding:2em;word-wrap:normal;}
+	.reveal pre code::selection,.reveal pre code ::selection{background-color:#000;color:#4682b4}
+	.reveal pre code:focus{outline:none}
+	.reveal blockquote{border-left:.25em solid #4682b4;box-shadow:none;padding:0 1em;text-align:left;}
+	.reveal blockquote:before,.reveal blockquote:after{content:''}
+	.reveal iframe.blocks{width:960px;height:500px;margin-left:-30px}
+	.reveal section img{border:none;box-shadow:none}
+	.reveal #title h1,.reveal #title h2,.reveal #title h3,.reveal #title h4,.reveal #title h5,.reveal #title h6{text-transform:none;font-family:'Helvetica Neue',sans-serif;font-weight:lighter;letter-spacing:-.05em;margin:0}
+	.reveal #title h3{margin:1.5em 0 1em}
+	.reveal img.demo{max-height:500px}
+</style>
+<body style="position: static;">
+	<div class="reveal center">
+		<div class="slides">
+			<section id="title" class="present" style="top: -200px; display: block;">
+				<h1>Git&Github</h1>
+				<img src="http://f.hiphotos.baidu.com/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=1b0dc3d30d2442a7ba03f5f7b02ac62e/6159252dd42a2834b1c7cf5b59b5c9ea15cebf79.jpg" style="visibility: visible; width: 150px; height: 150px; margin-top: 20px; display: inline-block;" url="http://f.hiphotos.baidu.com/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=1b0dc3d30d2442a7ba03f5f7b02ac62e/6159252dd42a2834b1c7cf5b59b5c9ea15cebf79.jpg">
+				<p>
+					<a href="http://lab.hakim.se/reveal-js/" target="_blank" class="roll">
+						<span data-title="Scott Cheng">Write By reveal.js</span>
+					</a>
+				</p>
+			</section>
+			<section>
+				<section id="outline" class="future" style="top: -266px; display: block;">
+					<h2>What‘s Git?</h2>
+					<ul>
+						<li>Git是目前世界上最先进的分布式版本控制系统。</li>
+					</ul>
+				</section>
+				<section id="outline" class="future" style="top: -266px; display: block;">
+					<h2>What‘s 版本控制系统？</h2>
+					<ul>
+						<li>记录和保存软件的每一次改动，并且能够在各个版本间切换</li>
+						<li>AND MORE!</li>
+					</ul>
+				</section>
+			</section>
+			<section>
+				<section id="outline" class="future" style="top: -266px; display: block;">
+					<h2>传统的版本控制系统?</h2>
+					<ul>
+						<li>cvs</li>
+						<li>svn</li>
+					</ul>
+				</section>
+				<section id="outline" class="future" style="top: -266px; display: block;">
+					<h2>它们与git的区别？</h2>
+					<ul>
+						<li>git是分布式的，意味着每台电脑都可以有一个完整的版本库</li>
+						<li>git不需要联网也可以进行工作</li>
+						<li>git有强大的分支管理</li>
+					</ul>
+				</section>
+			</section>
+			<section class="stack future" data-previous-indexv="0" style="top: 0px; display: block;">
+				<section id="what-is-d3" class="" style="top: -226px; display: block;">
+					<h2>GitHub？？？</h2>
+					<ul>
+						<li>
+							GitHub是一个免费的远程仓库
+						</li>
+						<li>
+							GitHub还是一个开源协作社区
+						</li>
+						<li>
+							在GitHub上能够找到能想到的大多数库、组件
+						</li>
+						<li>
+							AND MORE！
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="stack future" data-previous-indexv="0" style="top: 0px; display: block;">
+				<section id="facts" class="future" style="top: -273px; display: block;">
+					<h2>Git基本使用</h2>
+					<h4>git init 初始化仓库</h4>
+					<h4>git status 查看仓库当前状态</h4>
+				</section>
+				<section id="facts" class="future" style="top: -273px; display: block;">
+					<h4>git add 把文件添加到暂存区</h4>
+					<h4>git commit 把文件提交到本地仓库</h4>
+					<h4>git diff 查看文件被修改情况</h4>
+				</section>
+				<section id="facts" class="future" style="top: -273px; display: block;">
+					<h4>git log 查看版本历史</h4>
+					<h4>git reset 退回到指定版本</h4>
+					<h4>git reflog 查看命令历史</h4>
+				</section>
+				<section id="facts" class="future" style="top: -273px; display: block;">
+					<h4>git checkout -- file 撤销工作区中某个文件的修改</h4>
+					<h4>git reset HEAD file 把暂存区的修改撤销掉</h4>
+					<h4>git rm 删除文件</h4>
+					<h4>git checkout其实是用版本库里的版本替换工作区的版本</h4>
+				</section>
+				<section id="facts" class="future" style="top: -273px; display: block;">
+					<h2>远程仓库</h2>
+					<h4>http、https或者ssh的方式</h4>
+					<h4>git remote add origin 添加远程仓库</h4>
+					<h4>git push -u origin master 将本地仓库的修改提交到远程仓库</h4>
+					<h4>git clone 最重要了</h4>
+				</section>
+				<section id="facts" class="future" style="top: -273px; display: block;">
+					<h2>分支管理</h2>
+					<h2>标签管理</h2>
+					<h2>自定义</h2>
+				</section>
+			</section>
+			<section id="end" class="future" style="top: -197px; display: block;">
+				<h1>Thank You</h1>
+				<h2>Questions?</h2>
+			</section>
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+	<script>
+
+		// Full list of configuration options available at:
+		// https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+			controls: true,
+			progress: true,
+			history: true,
+			center: true,
+			slideNumber: true,
+			keyboard: true,
+			overview: true,
+
+			transition: 'convex', // none/fade/slide/convex/concave/zoom
+
+			// Optional reveal.js plugins
+			dependencies: [
+				{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+				{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+				{ src: 'plugin/zoom-js/zoom.js', async: true },
+				{ src: 'plugin/notes/notes.js', async: true }
+			]
+		});
+
+	</script>
+</body>
+</html>

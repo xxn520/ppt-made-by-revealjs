@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>reveal.js</title>
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/league.css" id="theme">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement( 'link' );
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName( 'head' )[0].appendChild( link );
+	</script>
+
+	<!--[if lt IE 9]>
+	<script src="lib/js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body>
+	
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<section data-markdown>
+	        		<script type="text/template">
+				        ## 麻友小当家
+				        ---
+				        <p style="text-align:right">没有错我们都是雀圣</p>
+				    </script>
+	        	</section>
+			</section>
+	        <section>
+	        	<section data-markdown>
+	        		<script type="text/template">
+				        ## 场景一
+				        ---
+				        ![](http://img-storage.qiniudn.com/15-11-4/64324512.jpg) 三缺一，何等的卧槽！
+				    </script>
+	        	</section>
+			    <section data-markdown>
+	        		<script type="text/template">
+				        ## 场景二
+				        ---
+				        ![](http://img-storage.qiniudn.com/15-11-4/98535161.jpg) 棋牌室人满了，宝宝要哭了！
+				    </script>
+	        	</section>
+	        	<section data-markdown>
+	        		<script type="text/template">
+				        ## 场景三
+				        ---
+				        ![](http://img-storage.qiniudn.com/15-11-4/25114973.jpg) 我等雀圣难得对手！
+				    </script>
+	        	</section>
+			</section>
+			<section>
+				<section data-markdown>
+	        		<script type="text/template">
+				        ## So
+				        ---
+				        ![](http://img-storage.qiniudn.com/15-11-4/77198976.jpg)麻友小当家出现了
+				    </script>
+	        	</section>
+			</section>
+			<section>
+				<section data-markdown>
+					<script type="text/template">
+				        ## ideas
+				        ---
+				        Let‘s go！
+				    </script>
+	        	</section>
+	        	<section data-markdown>
+	        		<script type="text/template">
+				        1. 像约司机一样约麻友
+				        2. 棋牌室座位情况
+				        3. 积分统计不再用纸牌
+				        4. 积分系统，匹配同段位麻友
+				        5. 大开脑洞。。。
+				    </script>
+				</section>
+			</section>
+			<section data-markdown>
+				<script type="text/template">
+				      ## 吼吼吼！
+				      ---
+				      ![](http://img-storage.qiniudn.com/15-11-4/5901492.jpg) 妈妈再也不用担心我没麻将打  
+				</script>
+			</section>
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+	<script>
+
+		// Full list of configuration options available at:
+		// https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+			controls: true,
+			progress: true,
+			history: true,
+			center: true,
+			slideNumber: true,
+			keyboard: true,
+			overview: true,
+
+			transition: 'convex', // none/fade/slide/convex/concave/zoom
+
+			// Optional reveal.js plugins
+			dependencies: [
+				{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+				{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+				{ src: 'plugin/zoom-js/zoom.js', async: true },
+				{ src: 'plugin/notes/notes.js', async: true }
+			]
+		});
+
+	</script>
+</body>
+</html>
